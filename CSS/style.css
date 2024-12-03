@@ -87,10 +87,10 @@ header{
     padding-top: 10%;
 }
 .hero-img img{
-    width: 100%;
-    height: auto;
-    padding-right: 15%;
-    padding-bottom: 50px;
+    width: 90%;
+    padding-right: 10%;
+    margin-bottom: 90px;
+    /* border: 3px solid red; */
 }
 .hero-text h1{
     font-size: 90px;
@@ -157,4 +157,19 @@ transform: scale(1,1);
 .icons i:hover{
     transform: translateY(-5px);
     color: var(--main-color);
+}
+.scroll{
+position: absolute;
+top: 92%;
+right: 7%;
+transform: translateY(-50%);
+}
+.scroll a{
+    font-size: 16px;
+    color: var(--text-color);
+}
+.scroll i{
+    font-size: 20px;
+    color: var(--text-color);
+    margin-right: 6px;
 }
